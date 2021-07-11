@@ -1,0 +1,19 @@
+[package]
+name = "power-menu-gtk"
+version = "0.1.0"
+authors = ["Beinsezii <beinsezii@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gtk = "0.14"
+gdk = "0.14"
+gio = "0.14"
+glib = "0.14"
+
+clap = "3.0.0-beta.2"
+
+[profile.release]
+lto = true
+opt-level = "z"
