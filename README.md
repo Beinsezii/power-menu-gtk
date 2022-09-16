@@ -1,4 +1,4 @@
-# power-menu-gtk
+### Discontinued for [ButtBox](https://github.com/Beinsezii/buttbox)
 
 Simple Linux power menu using GTK with customizable commands and button size.
 
